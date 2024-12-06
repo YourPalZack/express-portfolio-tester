@@ -1,0 +1,24 @@
+/* Layout styles */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
+
+.col {
+  flex: 1;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%;
+  }
+}
